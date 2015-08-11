@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="login.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="index.js"></script>
+    <script src="fastclick.js"></script>
   </head>
   <body>
     <div id="loadingscreen"></div>
@@ -12,13 +13,18 @@
       <div id="logo"></div>
       <div id="usrn">
         <div id="usicn"></div>
-        <input type="text" placeholder="Username" class="txtbx">
+        <input type="text" onChange="lol()" placeholder="Username" class="txtbx" name="usn">
         <div class="line"></div>
       </div>
       <div id="psw">
         <div id="pwicn"></div>
-        <input type="text" placeholder="Password" class="txtbx" name="lname">
+        <input type="text" placeholder="Password" class="txtbx" name="psw">
         <div class="line"></div>
+      </div>
+      <div id="login">
+        <svg width="150" height="150">
+          <circle onclick="alert("")" cx="75" cy="75" r="75" fill="rgba(255,255,255,.5)" />
+        </svg>
       </div>
     </div>
   </body>

@@ -70,6 +70,13 @@
   border: none;
   background-color: transparent;
   position:absolute;
+  font-family:helvetica;
   font-size:50px;
   color:white;
+}
+
+#login {
+  position:fixed;
+  bottom:15%;
+  left:39%;
 }
